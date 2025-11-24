@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://-2116e6ec.zappy5.app/sitemap.xml
+Sitemap: https://livchor-nachon.zappy5.app/sitemap.xml
