@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### דף הבית
+https://yifatmadmon.co.il
+לבחור נכון - ייעוץ מקצועי בבית הלקוח למעלה מ-25 שנה. חיסכון בזמן וכסף בבחירת כלים סניטריים וקרמיקה.
+
+### שירותים
+https://yifatmadmon.co.il/services
+גלו את מגוון השירותים המקצועיים שלנו: כלים סניטריים, קרמיקה, מקלחונים, ריהוט לאמבטיה, שיש למטבח וייעוץ אישי בבית.
+
+### אודות
+https://yifatmadmon.co.il/about
+הכירו את לבחור נכון - למעלה מ-25 שנות ניסיון בייעוץ מקצועי לשיפוץ אמבטיה ומטבח. שירות אישי, מקצועיות ומחויבות ללקוח.
+
+### צור קשר
+https://yifatmadmon.co.il/contact
+צרו קשר עם לבחור נכון לייעוץ מקצועי בשיפוץ אמבטיה ומטבח. קבעו פגישת ייעוץ חינם בבית שלכם.
+
+## Legal & Policy
+
+### Privacy Policy
+https://yifatmadmon.co.il/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://yifatmadmon.co.il/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://yifatmadmon.co.il/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://yifatmadmon.co.il/sitemap.xml
+- **Robots.txt**: https://yifatmadmon.co.il/robots.txt
