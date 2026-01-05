@@ -1,47 +1,66 @@
-# Business — Generative Engine Optimization Map
+# לבחור נכון — Generative Engine Optimization Map
+
+> A כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח business.
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://yifatmadmon.co.il
+https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com
 לבחור נכון - ייעוץ מקצועי בבית הלקוח למעלה מ-25 שנה. חיסכון בזמן וכסף בבחירת כלים סניטריים וקרמיקה.
 
 ### שירותים
-https://yifatmadmon.co.il/services
+https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com/services
 גלו את מגוון השירותים המקצועיים שלנו: כלים סניטריים, קרמיקה, מקלחונים, ריהוט לאמבטיה, שיש למטבח וייעוץ אישי בבית.
 
 ### אודות
-https://yifatmadmon.co.il/about
+https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com/about
 הכירו את לבחור נכון - למעלה מ-25 שנות ניסיון בייעוץ מקצועי לשיפוץ אמבטיה ומטבח. שירות אישי, מקצועיות ומחויבות ללקוח.
 
 ### צור קשר
-https://yifatmadmon.co.il/contact
+https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com/contact
 צרו קשר עם לבחור נכון לייעוץ מקצועי בשיפוץ אמבטיה ומטבח. קבעו פגישת ייעוץ חינם בבית שלכם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://yifatmadmon.co.il/privacy
+https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://yifatmadmon.co.il/terms
+https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://yifatmadmon.co.il/accessibility
+https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About לבחור נכון
+לבחור נכון is a business in the כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח industry.
+
+## Services/Products
+- כלים סניטרים
+- קרמיקה
+- מקלחונים
+- ריהוט לאמבטיה
+- שיש למטבח
+- בחירה והתאמה אינדיווידואלית
+- ייעוץ מקצועי בבית הלקוח
+
+## Target Audience
+לקוחות פרטיים המעוניינים בשיפוץ/עיצוב אמבטיה ומטבח
+
+## Industry
+כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://yifatmadmon.co.il/sitemap.xml
-- **Robots.txt**: https://yifatmadmon.co.il/robots.txt
+- **Sitemap**: https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com/sitemap.xml
+- **Robots.txt**: https://zappy-site-2116e6ec-92e8-488e-ad3d.onrender.com/robots.txt
