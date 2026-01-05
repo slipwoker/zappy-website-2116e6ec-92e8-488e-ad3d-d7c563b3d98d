@@ -1571,3 +1571,21 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* Center align hero content */
+.hero-content {
+  text-align: center !important;
+}
+
+.hero-content h1 {
+  text-align: center !important;
+}
+
+.hero-content h3 {
+  text-align: center !important;
+}
+
+.hero-content .btn-primary {
+  text-align: center !important;
+}
