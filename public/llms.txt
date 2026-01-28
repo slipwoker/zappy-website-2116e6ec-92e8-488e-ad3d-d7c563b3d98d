@@ -1,6 +1,4 @@
-# לבחור נכון — Generative Engine Optimization Map
-
-> A כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,24 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About לבחור נכון
-לבחור נכון is a business in the כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח industry.
-
-## Services/Products
-- כלים סניטרים
-- קרמיקה
-- מקלחונים
-- ריהוט לאמבטיה
-- שיש למטבח
-- בחירה והתאמה אינדיווידואלית
-- ייעוץ מקצועי בבית הלקוח
-
-## Target Audience
-לקוחות פרטיים המעוניינים בשיפוץ/עיצוב אמבטיה ומטבח
-
-## Industry
-כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח
-
+## About Business
 ---
 
 # Additional Resources
