@@ -1678,6 +1678,12 @@ body.accessibility-widget-visible ._access-menu {
   border-left: none;
   border-right: 4px solid currentColor;
 }
+/* Font pairing applied */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=DM+Sans:wght@400&display=swap');
+:root { --font-heading: 'DM Serif Display', sans-serif; --font-body: 'DM Sans', sans-serif; }
+body { font-family: 'DM Sans', sans-serif; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-family: 'DM Serif Display', sans-serif; font-weight: 400; }
+
 
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
