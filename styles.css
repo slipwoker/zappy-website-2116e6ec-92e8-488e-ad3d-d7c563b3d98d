@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
@@ -1691,6 +1693,12 @@ h1, h2, h3, h4, h5, h6 { font-family: 'DM Serif Display', sans-serif; font-weigh
   --heading-font: 'DM Serif Display', serif;
   --font-heading: 'DM Serif Display', serif;
   --font-body: 'DM Sans', sans-serif;
+}
+
+:root {
+  --heading-font: 'Noto Serif', serif;
+  --font-heading: 'Noto Serif', serif;
+  --font-body: 'Heebo', sans-serif;
 }
 
 /* zappy-nav-child-indent */
