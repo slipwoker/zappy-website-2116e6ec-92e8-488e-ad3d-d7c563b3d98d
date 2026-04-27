@@ -380,9 +380,9 @@
     </div>
   </nav>
 
-  <section class="hero" id="hero" style="">
+  <section class="hero" id="hero" >
     <div data-zappy-zoom-wrapper="true" data-element-id="img-1776352478151-diugyw7wx" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;"><img data-placeholder="hero-1" data-context="מטבח מודרני מעוצב עם כלים סניטריים יוקרתיים, קרמיקה מעוצבת ושיש איכותי, תאורה חמה ואווירה אלגנטית" src="/assets/hero-hero-1.webp?v=1764583762798" alt="מטבח ואמבטיה מעוצבים עם כלים סניטריים יוקרתיים" class="hero-img" data-element-type="image" data-element-id="img-1776352478151-diugyw7wx" style="object-position: 46% 89%; margin: 0px !important; position: absolute !important; left: 0% !important; top: 0% !important; width: 100% !important; height: 100% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1"></div>
-    <div class="hero-overlay" style=""></div>
+    <div class="hero-overlay" ></div>
     <div class="hero-content">
       <h1 style="font-size: 112px; text-align: center; max-width: 773px; margin-left: auto; margin-right: auto;" data-zappy-text-width="custom">יפעת מדמון - ייעוץ לפני שיפוץ&nbsp;<br>&nbsp;מומחית לבחירות מדויקות&nbsp;<br><br></h1>
       
@@ -396,8 +396,8 @@
     <div class="container">
       <h2 style="font-size: 32px; max-width: 810px; margin-left: auto; margin-right: auto;" data-zappy-text-width="custom"></h2><h3>בחירת ריצופים, חיפויים, כלים סניטרים, ריהוט לאמבט ושיש למטבח יכולה להיות אחת ההחלטות המבלבלות והיקרות בתהליך השיפוץ.<br>אני כאן כדי לעשות לכם סדר, לדייק את הבחירות וללוות אתכם בהחלטות שמתאימות באמת לבית, לצרכים, לסגנון ולתקציב שלכם, בלי לחץ, בלי התרוצצות מיותרת ובלי טעויות שעולות ביוקר.</h3>
       <div class="intro-content">
-        <h3><span style="font-weight: normal;">עם נסיון של למעלה מ 30 שנים בתחום הקרמיקה, הכלים הסניטרים והשיש, אני מביאה איתי ראייה מקצועית רחבה, היכרות עמוקה אם השטח ויכולת לזהות מה נכון לחלל שלכם כבר בשלבי הבחירה.</span><br></h3><h3 style=""></h3><h2 style=""></h2><h3 style="">ליווי מקצועי הוא לא מותרות, הוא החלטה חכמה שחוסכת זמן, כסף, טעויות ועוגמת נפש.</h3>
-        <p style="">לתאום ייעוץ ראשוני צרו קשר.</p>
+        <h3><span style="font-weight: normal;">עם נסיון של למעלה מ 30 שנים בתחום הקרמיקה, הכלים הסניטרים והשיש, אני מביאה איתי ראייה מקצועית רחבה, היכרות עמוקה אם השטח ויכולת לזהות מה נכון לחלל שלכם כבר בשלבי הבחירה.</span><br></h3><h3 ></h3><h2 ></h2><h3 >ליווי מקצועי הוא לא מותרות, הוא החלטה חכמה שחוסכת זמן, כסף, טעויות ועוגמת נפש.</h3>
+        <p >לתאום ייעוץ ראשוני צרו קשר.</p>
       </div>
     </div>
   
@@ -540,7 +540,7 @@
       <div class="container">
         <div class="footer-main">
           <div class="all-rights-reserved">
-            <p style="">© 2025 יפעת מדמון. כל הזכויות שמורות.</p>
+            <p >© 2025 יפעת מדמון. כל הזכויות שמורות.</p>
           </div>
           <div class="footer-social"><a href="https://facebook.com/yifat.madmon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook" data-element-type="icon" data-element-id="icon-1776341948843-qdxaifne2" data-icon-type="fontawesome"></i></a>
 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="display:none;"><i class="fab fa-instagram"></i></a>
@@ -694,8 +694,11 @@
       function applyMobile(){
         if(_applied)return;_applied=true;
         document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          if(_isHeroBg(w))return;
           var cw=w.style.getPropertyValue('width');
-          if(!cw||cw==='100%')return;
+          var _sW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'))||0;
+          var _sH=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height'))||0;
+          if(!cw&&!(_sW>0&&_sH>0))return;
           if(!w._zappyDesktop)w._zappyDesktop={wStyle:w.getAttribute('style')};
           var img=w.querySelector('img');
           if(!img)return;
@@ -704,7 +707,6 @@
           var mobileZoom=parseFloat(mobileZoomStr);
           var mobileSrc=img.getAttribute('data-zappy-mobile-src');
           var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
-          var hasMobileOverrides=mobilePos||mobileZoomStr;
           var parentOvf=w.parentElement?((w.parentElement.style.overflow||'')+(window.getComputedStyle(w.parentElement).overflow||'')).trim():'';
           var inConstrainedParent=parentOvf.indexOf('hidden')!==-1||parentOvf.indexOf('clip')!==-1;
           if(inConstrainedParent){
@@ -714,43 +716,41 @@
             w.style.setProperty('max-width','100%','important');
           }
           if(mobileSrc)img.src=mobileSrc;
-          if(hasMobileOverrides){
+          function _applyZoomCrop(_img,_w,_ePos,_eZoom){
+            var rect=_w.getBoundingClientRect();
+            if(!rect||!rect.width||!rect.height)return;
+            var nW=_img.naturalWidth||0,nH=_img.naturalHeight||0;
+            if(!(nW>0&&nH>0))return;
+            var iA=nW/nH,cA=rect.width/rect.height;
+            var cv=_coverPct(iA,cA);
+            var wP=100,hP=100;
+            if(_eZoom>=1){wP=cv.w*_eZoom;hP=cv.h*_eZoom;}
+            else{var t2=(_eZoom-0.5)/0.5;if(!isFinite(t2))t2=0;t2=Math.max(0,Math.min(1,t2));wP=100+t2*(cv.w-100);hP=100+t2*(cv.h-100);}
+            var p2=_parsePos(_ePos);
+            var lP=(100-wP)*(p2.x/100);
+            var tP=(100-hP)*(p2.y/100);
+            _img.style.setProperty('position','absolute','important');
+            _img.style.setProperty('left',lP+'%','important');
+            _img.style.setProperty('top',tP+'%','important');
+            _img.style.setProperty('width',wP+'%','important');
+            _img.style.setProperty('height',hP+'%','important');
+            _img.style.setProperty('max-width','none','important');
+            _img.style.setProperty('max-height','none','important');
+            _img.style.setProperty('display','block','important');
+            _img.style.setProperty('object-fit',_eZoom<1?'fill':'cover','important');
+            _img.style.setProperty('transform','none','important');
+            _img.style.setProperty('margin','0','important');
+          }
+          if(_sW>0&&_sH>0){
             var effZoom=(isFinite(mobileZoom)&&mobileZoom>0)?mobileZoom:(parseFloat(img.getAttribute('data-zappy-zoom'))||1);
-            var effPos=mobilePos||'50% 50%';
+            var effPos=mobilePos||img.getAttribute('data-zappy-object-position')||img.style.objectPosition||'50% 50%';
             w.style.setProperty('overflow','hidden','important');
             w.style.setProperty('position','relative','important');
             w.style.setProperty('width','100%','important');
             w.style.setProperty('max-width','100%','important');
-            var _sW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'))||0;
-            var _sH=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height'))||0;
-            if(_sW>0&&_sH>0){w.style.setProperty('aspect-ratio',_sW+'/'+_sH,'important');w.style.setProperty('height','auto','important');}
-            function _applyZoomCrop(_img,_w,_ePos,_eZoom){
-              var rect=_w.getBoundingClientRect();
-              if(!rect||!rect.width||!rect.height)return;
-              var nW=_img.naturalWidth||0,nH=_img.naturalHeight||0;
-              if(!(nW>0&&nH>0))return;
-              var iA=nW/nH,cA=rect.width/rect.height;
-              var cv=_coverPct(iA,cA);
-              var wP=100,hP=100;
-              if(_eZoom>=1){wP=cv.w*_eZoom;hP=cv.h*_eZoom;}
-              else{var t2=(_eZoom-0.5)/0.5;if(!isFinite(t2))t2=0;t2=Math.max(0,Math.min(1,t2));wP=100+t2*(cv.w-100);hP=100+t2*(cv.h-100);}
-              var p2=_parsePos(_ePos);
-              var lP=(100-wP)*(p2.x/100);
-              var tP=(100-hP)*(p2.y/100);
-              _img.style.setProperty('position','absolute','important');
-              _img.style.setProperty('left',lP+'%','important');
-              _img.style.setProperty('top',tP+'%','important');
-              _img.style.setProperty('width',wP+'%','important');
-              _img.style.setProperty('height',hP+'%','important');
-              _img.style.setProperty('max-width','none','important');
-              _img.style.setProperty('max-height','none','important');
-              _img.style.setProperty('display','block','important');
-              _img.style.setProperty('object-fit',_eZoom<1?'fill':'cover','important');
-              _img.style.setProperty('transform','none','important');
-              _img.style.setProperty('margin','0','important');
-            }
+            if(_sW>0&&_sH>0){w.style.setProperty('padding-bottom','0','important');w.style.setProperty('aspect-ratio',_sW+'/'+_sH,'important');w.style.setProperty('height','auto','important');}
             _applyZoomCrop(img,w,effPos,effZoom);
-            if(mobileSrc&&!(img.complete&&img.naturalWidth>0)){
+            if(!(img.complete&&img.naturalWidth>0)){
               (function(_i,_w2,_p,_z){_i.addEventListener('load',function _ol(){_i.removeEventListener('load',_ol);try{_applyZoomCrop(_i,_w2,_p,_z);}catch(e){}});
               })(img,w,effPos,effZoom);
             }
