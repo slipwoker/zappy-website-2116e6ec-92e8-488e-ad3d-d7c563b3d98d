@@ -1701,6 +1701,10 @@ h1, h2, h3, h4, h5, h6 { font-family: 'DM Serif Display', sans-serif; font-weigh
   --font-body: 'Heebo', sans-serif;
 }
 
+#hero > div.hero-content:nth-child(3) > h1:nth-child(1) {
+  font-size: 146px !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
