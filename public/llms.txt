@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# לבחור נכון — Generative Engine Optimization Map
+
+> A כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח business.
 
 ---
 
@@ -36,12 +38,50 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: yifatceramic@gmail.com
+- Phone: 0503672457
+- Phone (tel): tel:0503672457
+- Address: ,
+
+### Contact form
+- URL: https://yifatmadmon.co.il/contact
+- Endpoint: https://yifatmadmon.co.il/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://yifatmadmon.co.il/sitemap.xml
-- **Robots.txt**: https://yifatmadmon.co.il/robots.txt
+## About לבחור נכון
+לבחור נכון is a business in the כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח industry.
+
+## Services/Products
+- כלים סניטרים
+- קרמיקה
+- מקלחונים
+- ריהוט לאמבטיה
+- שיש למטבח
+- בחירה והתאמה אינדיווידואלית
+- ייעוץ מקצועי בבית הלקוח
+
+## Target Audience
+לקוחות פרטיים המעוניינים בשיפוץ/עיצוב אמבטיה ומטבח
+
+## Industry
+כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://yifatmadmon.co.il/sitemap.xml
+- Robots: https://yifatmadmon.co.il/robots.txt
+- Flattened page text (for LLMs): https://yifatmadmon.co.il/llms-full.txt
