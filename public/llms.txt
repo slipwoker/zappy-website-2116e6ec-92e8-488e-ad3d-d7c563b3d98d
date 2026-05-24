@@ -1,4 +1,4 @@
-# יפעת מדמן - יעוץ לפני שיפוץ — Generative Engine Optimization Map
+# יפעת מדמון - יעוץ לפני שיפוץ — Generative Engine Optimization Map
 
 > A כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח business.
 
@@ -60,8 +60,8 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About יפעת מדמן - יעוץ לפני שיפוץ
-יפעת מדמן - יעוץ לפני שיפוץ is a business in the כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח industry.
+## About יפעת מדמון - יעוץ לפני שיפוץ
+יפעת מדמון - יעוץ לפני שיפוץ is a business in the כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח industry.
 
 ## Services/Products
 - כלים סניטרים
