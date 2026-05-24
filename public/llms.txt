@@ -1,4 +1,4 @@
-# לבחור נכון — Generative Engine Optimization Map
+# יפעת מדמן - יעוץ לפני שיפוץ — Generative Engine Optimization Map
 
 > A כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח business.
 
@@ -43,7 +43,7 @@ Information about WCAG compliance and accessibility features.
 - Email: yifatceramic@gmail.com
 - Phone: 0503672457
 - Phone (tel): tel:0503672457
-- Address: ,
+- Address: ,, Israel
 
 ### Contact form
 - URL: https://yifatmadmon.co.il/contact
@@ -60,8 +60,8 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About לבחור נכון
-לבחור נכון is a business in the כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח industry.
+## About יפעת מדמן - יעוץ לפני שיפוץ
+יפעת מדמן - יעוץ לפני שיפוץ is a business in the כלים סניטרים, קרמיקה ועיצוב אמבטיה ומטבח industry.
 
 ## Services/Products
 - כלים סניטרים
